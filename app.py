@@ -22,7 +22,7 @@ class iPhone(Phone):
       else:
         print("Phone locked. ACCESS DENIED")
 
-class Android(phone):
+class Android(Phone):
   def __init__(self, phone_number):
     super().__init__(phone_number)
     self.keyboard = "Default"
